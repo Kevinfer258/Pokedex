@@ -1,0 +1,216 @@
+.PokeInfo{
+    display: flex;
+    flex-direction: column;
+    background-color:  #E5E5E5;
+}
+  .pokeInfo_rojo{
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    position: absolute;
+  }
+  .pokeInfo_negro{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+   
+  }
+  .PokeInfo_img {
+    top: 10px; 
+    left: 2px; 
+    height: 50px;
+    width: 350px;
+    margin-top: 1em;
+    position: relative;
+  }
+ .pokeInfo_card_arriba{
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  -webkit-box-shadow: 0px 3px 13px -1px rgba(0,0,0,0.64);
+  -moz-box-shadow: 0px 3px 13px -1px rgba(0,0,0,0.64);
+  box-shadow: 0px 3px 13px -1px rgba(0,0,0,0.64);
+ }
+  /* header */
+  .pokeInfo_header{
+    width:100%; 
+    height: 200px; 
+    margin-top: 8em;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+
+  }
+  .pokeInfoImg{
+    width: 300px;
+    position: relative;
+    top: -80px;
+  
+  }
+  
+  /* info */
+  .pokeInfo_infoPokeCard{
+    display: flex;
+    flex-direction: column;
+  }
+  .pokeInfo_infoPolkeCard-title{
+    text-align: center;
+    padding-top:2em;
+    text-transform: capitalize;
+  }
+  .pokeInfo_infoPolkeCard-label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+  .pokeInfo_infoPolkeCard-value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1em;
+    font-weight: bold;
+  }
+  .pokeInfo_types-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pokeInfo_types-skills-label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+  .pokeInfo_types-skills-value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .pokeInfo_types-skills-item{
+    border: 0.1em none;
+    background: #E5E5E5;
+    border-radius: 50px;
+    padding: 0.5em;
+    margin-bottom: 2em;
+    text-transform: capitalize;
+  }
+.pokeInfo_footer-h3{
+  text-align: center;
+}
+.pokeInfo_footer{
+    display: flex;
+    flex-direction: column;
+  }
+.pokeInfo_footer-label{
+  display: flex;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  flex-direction: column;
+  gap: 0.5em;
+  padding-bottom: 1em;
+}
+.pokeInfo_footer-value{
+  display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+/* moves */
+.moves_title{
+  text-align: center;
+}
+.moves_hr{
+  border: 1px solid #D3D3D3; 
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.PokeInfo_title{
+  text-align: center;
+}
+.pokeInfo_moves-list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+.pokeInfo_moves-Item{
+  background-color: lightgray;
+  padding: 8px;
+  border-radius: 12px;
+  margin: 4px;
+  margin-bottom: 2em;
+  transition: transform 200ms ease;
+
+}
+.pokeInfo_moves-Item:hover{
+  transform: scale(1.05);
+}
+  /* FONDO */
+.bg-grass{
+    background-image: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+    border-radius: 4px 4px 0px 0px;
+}
+.bg-fire{
+    background: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
+    border-radius: 4px 4px 0px 0px;
+}
+.bg-water{
+    background-image:  linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+    border-radius: 4px 4px 0px 0px;
+}
+.bg-normal{
+    background: linear-gradient(181.51deg, #735259 -6.44%, #BC6B7C 121.95%, #7C3F4C 186.11%);
+    border-radius: 4px 4px 0px 0px;
+}
+.bg-rock{
+    background: linear-gradient(177.03deg, #7E7E7E -11.97%, #8D8D94 57.49%, #D3D3D3 135.64%);
+    border-radius: 4px 4px 0px 0px;
+}
+.bg-dragon{
+    background: linear-gradient(179.75deg, #478A93 -19.96%, #56A4AE 43.67%, #A2BEC1 138.4%);
+    border-radius: 4px 4px 0px 0px;
+}
+.bg-dark{
+    background: linear-gradient(177.03deg, #030706 -11.97%, #0D1211 57.49%, #5A5E5D 135.64%);
+    border-radius: 4px 4px 0px 0px;
+}   
+.bg-electric{
+    background: linear-gradient(179.75deg, #0C1395 -19.96%, #2B319B 43.67%, #7075D9 138.4%);
+    border-radius: 4px 4px 0px 0px;
+}
+.bg-fairy{
+    background: linear-gradient(179.75deg, #971B45 -19.96%, #C23867 43.67%, #CD7D98 138.4%);
+    border-radius: 4px 4px 0px 0px;
+}
+.bg-ghost{
+    background: linear-gradient(177.03deg, #323569 -11.97%, #454AA8 57.49%, #787DDA 135.64%);
+border-radius: 4px 4px 0px 0px;
+}
+.bg-ice{
+    background: linear-gradient(177.03deg, #6FBEDF -11.97%, #64CBF5 47.77%, #BDEBFE 136.72%);
+    border-radius: 4px 4px 0px 0px;
+}
+.bg-bug{
+    background: linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+    border-radius: 4px 4px 0px 0px;
+}
+.bg-ground{
+    background: linear-gradient(179.75deg, #654008 -19.96%, #895C1A 43.67%, #D69638 138.4%);
+    border-radius: 4px 4px 0px 0px;
+}
+.bg-fighting{
+   background-color: #8F735A;
+}
+.bg-psychic{
+    background-color: #90843D;
+}
