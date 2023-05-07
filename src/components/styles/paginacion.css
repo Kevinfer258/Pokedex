@@ -1,0 +1,35 @@
+.pag-dex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+.btn-minus{
+    border: none;
+  min-width: 80px;
+    height: 30px;
+    background-color:  #f8f9fa;
+    cursor: pointer;
+    border-radius:5px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-plus{
+    border: none;
+    background-color: #f8f9fa;
+    min-width: 80px;
+      height: 30px;
+      cursor: pointer;
+      border-radius:5px;
+      font-size: 1.2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+}
+.pag-span{
+    font-size: 1.5rem;
+}
